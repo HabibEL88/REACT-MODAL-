@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useState } from "react";
 import { render } from "react-dom";
-import { TextInput } from "./lib";
+import { Modal } from "./lib";
 
-const App = () => (
-  <div style={{ width: 640, margin: "15px auto" }}>
-    <h1>Hello React</h1>
-    <TextInput label="Email Address" placeholder="name@example.com" />
-  </div>
-);
+const App = () => {
+  const [show, setShow] = useState(false);
+
+  return (
+    <div style={{ width: 640, margin: "15px auto" }}>
+      <button onClick={() => setShow(true)}>Show Modal</button>
+      <Modal
+        title="My Modal"
+        onClose={() => {
+          setShow(false);
+        }}
+        show={show}
+      >
+        <p>This is Modal body</p>
+      </Modal>
+    </div>
+  );
+};
 
 render(<App />, document.getElementById("root"));
