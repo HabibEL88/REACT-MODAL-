@@ -15,7 +15,7 @@ const App = () => {
         }}
         show={show}
       >
-        <p>This is Modal body</p>
+        <p>Employee Created !</p>
       </Modal>
     </div>
   );
