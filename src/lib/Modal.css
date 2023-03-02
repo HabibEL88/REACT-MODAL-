@@ -38,9 +38,8 @@
     transform: translateY(-200px);
 }
 
-.modal-header, .modal-footer {
+.modal-header {
     padding: 10px;
-    display: none;
 }
 
 .modal-title {
