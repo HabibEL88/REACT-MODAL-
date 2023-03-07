@@ -1,6 +1,11 @@
 # react-modal
  
- ## About
+ ##About
+ 
+ Modal component for React Project
+ School project
+ 
+ ## Installtion
  
 ```
 npm i modal-projet-14-oc
