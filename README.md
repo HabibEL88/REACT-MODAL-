@@ -1,6 +1,6 @@
 # react-modal
  
- ##About
+ ## About
  
  Modal component for React Project
  School project
