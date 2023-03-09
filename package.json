@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "description": "Ceci est un projet de creation d'un modal a afficher dans un projet de conertion de librairie jQuery en react",
+  "keywords": ["modal", "React", "input", "form"],
+  "author": "Habib EL MOUINI",
   "files": [
     "dist"
   ],
